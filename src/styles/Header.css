@@ -1,0 +1,15 @@
+.header {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 0.5em;
+  height: 40px;
+}
+
+@media (min-width: 550px) {
+  .header {
+    font-size: 1em;
+    padding-top: 0;
+    height: auto;
+  }
+}

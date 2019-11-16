@@ -1,0 +1,76 @@
+.activity {
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.transport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 15vh;
+  background-image: url('../../images/adult-automotive-blur-car-13861.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.spedition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 15vh;
+  background-image: url('../../images/man-in-white-dress-shirt-sitting-on-black-rolling-chair-840996.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 15vh;
+  background-image: url('../../images/assorted-color-intermodal-containers-2547972.jpg');
+}
+
+.warehousing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 15vh;
+  background-image: url('../../images/person-driving-yellow-forklift-1267337.jpg');
+}
+
+@media (min-width: 550px) {
+  .activity {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .transport {
+    width: 20vw;
+    height: 60vh;
+  }
+
+  .spedition {
+    width: 20vw;
+    height: 60vh;
+  }
+
+  .logistics {
+    width: 20vw;
+    height: 60vh;
+  }
+
+  .warehousing {
+    width: 20vw;
+    height: 60vh;
+  }
+
+}

@@ -1,0 +1,45 @@
+.menu {
+  display: none;
+}
+
+@media (min-width: 550px) {
+  .menu {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    padding: 0 10px;
+    list-style-type: none;
+  }
+
+  .menu a {
+    display: block;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0 10px;
+    color: black;
+    transition: .2s;
+  }
+
+  .menu a:hover {
+    transform: translateY(-5px);
+  }
+
+  .menu a.active {
+    color: blueviolet;
+  }
+}
+
+/* .social ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 1px;
+  padding: 10px;
+  list-style-type: none;
+} */
