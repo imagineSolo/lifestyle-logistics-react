@@ -10,6 +10,7 @@ import Footer from "./containers/Footer";
 import "./styles/App.css";
 import "./styles/Header.css";
 import "./styles/Navigation.css";
+import "./styles/Content.css";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <div className="App">
           <header className="header">{<Header />}</header>
           <nav className="menu">{<Navigation />}</nav>
-          <section>{<Content />}</section>
+          <section className="section">{<Content />}</section>
           <footer>{<Footer />}</footer>
         </div>
       </Layout>

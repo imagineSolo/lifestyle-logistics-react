@@ -6,10 +6,18 @@ const ActivityPage = () => {
     <div>
       <h2>Usługi</h2>
       <div className="activity">
-        <div className="transport">Transport</div>
-        <div className="spedition">Spedycja</div>
-        <div className="logistics">Logistyka</div>
-        <div className="warehousing">Magazynowanie</div>
+        <div className="transport">
+          <span>Transport</span>
+        </div>
+        <div className="spedition">
+          <span>Spedycja</span>
+        </div>
+        <div className="logistics">
+          <span>Logistyka</span>
+        </div>
+        <div className="warehousing">
+          <span>Magazynowanie</span>
+        </div>
       </div>
     </div>
   );

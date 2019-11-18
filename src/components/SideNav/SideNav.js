@@ -21,6 +21,7 @@ const sideNav = props => {
         to={item.path}
         className={"Link"}
         exact={item.exact ? item.exact : false}
+        onClick={props.closed}
       >
         {item.name}
       </NavLink>
@@ -28,8 +29,8 @@ const sideNav = props => {
   ));
 
   return (
-    <div class={classList.join(" ")}>
-      <ul class={"NavigationList"}>{navMenu}</ul>
+    <div className={classList.join(" ")}>
+      <ul className={"NavigationList"}>{navMenu}</ul>
     </div>
   );
 };

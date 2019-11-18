@@ -1,6 +1,6 @@
 .activity {
   display: grid;
-  margin: auto;
+  padding-top: 25px;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -15,7 +15,7 @@
   width: 70vw;
   height: 15vh;
   background-image: url('../../images/adult-automotive-blur-car-13861.jpg');
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -37,6 +37,8 @@
   width: 70vw;
   height: 15vh;
   background-image: url('../../images/assorted-color-intermodal-containers-2547972.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .warehousing {
@@ -46,31 +48,32 @@
   width: 70vw;
   height: 15vh;
   background-image: url('../../images/person-driving-yellow-forklift-1267337.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.activity span {
+  color: rgba(255, 255, 255, 0.842);
+  font-size: 30px;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 @media (min-width: 550px) {
   .activity {
+    padding-top: 40px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
-  .transport {
-    width: 20vw;
-    height: 60vh;
-  }
-
-  .spedition {
-    width: 20vw;
-    height: 60vh;
-  }
-
-  .logistics {
-    width: 20vw;
-    height: 60vh;
-  }
-
+  .transport,
+  .spedition,
+  .logistics,
   .warehousing {
     width: 20vw;
-    height: 60vh;
+    height: 40vh;
   }
 
+  .activity span {
+    font-size: 40px;
+  }
 }

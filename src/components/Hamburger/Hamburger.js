@@ -7,9 +7,9 @@ const hamburger = props => {
     classList = ["Hamburger", "HamburgerActive"];
   }
   return (
-    <button class={classList.join(" ")} onClick={props.drawerToggleClicked}>
-      <span class="HamburgerBox">
-        <span class="HamburgerInner"></span>
+    <button className={classList.join(" ")} onClick={props.drawerToggleClicked}>
+      <span className="HamburgerBox">
+        <span className="HamburgerInner"></span>
       </span>
     </button>
   );

@@ -30,7 +30,7 @@ class Layout extends Component {
           open={this.state.showSideNav}
           closed={this.sideNavClosedHandler}
         />
-        <main>{this.props.children}</main>
+        {this.props.children}
       </Aux>
     );
   }

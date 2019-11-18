@@ -1,15 +1,64 @@
 .header {
   text-align: left;
-  padding-left: 10px;
+  padding-left: 70px;
   padding-top: 10px;
-  font-size: 0.5em;
-  height: 40px;
+  margin-top: 8px;
+  font-size: 0.7em;
+  height: 50px;
+}
+
+.Logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 5px 6px;
+  z-index: 100;
+}
+
+.LogoBox {
+  width: 50px;
+  height: 65px;
+  display: inline-block;
+  position: relative;
+  background-color: black;
+}
+
+.Line {
+  width: 3px;
+  height: 33%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Line::before,
+.Line::after {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  content: "";
+}
+
+.Line::before {
+  bottom: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.Line::after {
+  left: 0;
+  top: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 @media (min-width: 550px) {
   .header {
     font-size: 1em;
     padding-top: 0;
-    height: auto;
+    height: 10%;
   }
 }

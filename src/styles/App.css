@@ -5,8 +5,8 @@
 
 .App {
   text-align: center;
-  max-height: 100vh;
   max-width: 100%;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(20, 5%);
   grid-template-rows: repeat(20, 5%);
@@ -18,7 +18,6 @@
 .App header {
   grid-column: 1 / -1;
   grid-row: 1 / 1;
-  border: 1px solid black;
 }
 
 .App nav {
