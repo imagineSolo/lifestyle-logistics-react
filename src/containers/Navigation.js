@@ -4,10 +4,26 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   const navList = [
-    { name: "Strona główna", path: "/", exact: true },
-    { name: "O firmie", path: "/about" },
-    { name: "Usługi", path: "/activity" },
-    { name: "Kontakt", path: "/contact" }
+    { name: "Strona główna", path: "/", exact: true, sublinks: false },
+    { name: "O firmie", path: "/about", sublinks: false },
+    {
+      name: "Usługi",
+      path: "/activity",
+      sublinks: [
+        { name: "Transport", path: "/activity/transport" },
+        { name: "Spedycja", path: "/activity/spedition" },
+        { name: "Logistyka", path: "/activity/logistics" },
+        { name: "Magazynowanie", path: "/activity/warehousing" }
+      ]
+    },
+    {
+      name: "Kontakt",
+      path: "/contact",
+      sublinks: [
+        { name: "Oferty pracy", path: "/contact/job" },
+        { name: "Skontaktuj się", path: "/contact" }
+      ]
+    }
   ];
 
   const navMenu = navList.map(item => (

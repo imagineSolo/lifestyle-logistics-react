@@ -32,7 +32,7 @@
   }
 
   .menu a.active {
-    color: blueviolet;
+    text-decoration: solid;
   }
 }
 

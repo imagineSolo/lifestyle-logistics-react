@@ -23,7 +23,6 @@
 .App nav {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
-  border: 1px solid black;
 }
 
 .App section {
