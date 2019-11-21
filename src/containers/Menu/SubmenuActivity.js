@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Auxiliary from "../../hoc/Auxiliary";
-import { Route } from "react-router-dom";
+
 import "./Menu.css";
 
 class SubmenuActivity extends Component {
@@ -22,14 +22,6 @@ class SubmenuActivity extends Component {
             <NavLink to="/activity/warehousing">Magazynowanie</NavLink>
           </li>
         </ul>
-        <Route path="/activity/transport" exact component={Transport}></Route>
-        <Route path="/activity/spedition" exact component={Spedition}></Route>
-        <Route path="/activity/logistics" exact component={Logistics}></Route>
-        <Route
-          path="/activity/warehousing"
-          exact
-          component={Warehousing}
-        ></Route>
       </Auxiliary>
     );
   }

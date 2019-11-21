@@ -32,7 +32,7 @@ class Menu extends Component {
             <NavLink to="/activity/" onMouseEnter={this.handleHover}>
               Usługi
             </NavLink>
-            <div className="submenu-container">
+            <div className="submenu-container submenu-activity">
               <CSSTransitionGroup
                 transitionName="slide"
                 transitionEnterTimeout={300}
@@ -46,7 +46,7 @@ class Menu extends Component {
             <NavLink to="/contact/" onMouseEnter={this.handleHover}>
               Kontakt
             </NavLink>
-            <div className="submenu-container">
+            <div className="submenu-container submenu-contact">
               <CSSTransitionGroup
                 transitionName="slide"
                 transitionEnterTimeout={300}

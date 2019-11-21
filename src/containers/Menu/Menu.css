@@ -24,11 +24,19 @@
 */
 
 .submenu-container {
-  height: 200px;
-  min-width: 180px;
+  min-height: 182px;
+  min-width: 182px;
   position: absolute;
   overflow: hidden;
   z-index: -1;
+}
+
+.submenu-activity {
+  min-height: 182px;
+}
+
+.submenu-contact {
+  min-height: 92px;
 }
 
 .menu-container {
@@ -70,8 +78,7 @@ nav ul {
 }
 
 .nav__menu-item:hover {
-  background-color: #c78a08;
-  color: #fff;
+  background-color: rgb(243, 243, 243);
 }
 
 .nav__menu-item:hover .nav__submenu {
