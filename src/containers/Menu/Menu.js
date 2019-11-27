@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import SubmenuActivity from "./SubmenuActivity";
-import SubmenuContact from "./SubmenuContact.js";
 import { NavLink } from "react-router-dom";
 import { CSSTransitionGroup } from "react-transition-group";
-import "./Menu.css";
+import SubmenuActivity from "./SubmenuActivity";
+import SubmenuContact from "./SubmenuContact";
+import SocialMedia from "./SocialMedia";
+
+import "../../styles/components/Menu.css";
 
 class Menu extends Component {
   state = {
@@ -57,6 +59,7 @@ class Menu extends Component {
             </div>
           </li>
         </ul>
+        <SocialMedia />
       </nav>
     );
   }

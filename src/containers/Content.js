@@ -20,7 +20,6 @@ const Content = () => {
         <Route path="/about" component={AboutPage}></Route>
         <Route path="/activity" exact component={ActivityPage}></Route>
         <Route path="/contact" exact component={ContactPage}></Route>
-        <Route component={ErrorPage}></Route>
         <Route path="/activity/transport" component={Transport}></Route>
         <Route path="/activity/spedition" component={Spedition}></Route>
         <Route path="/activity/logistics" component={Logistics}></Route>
@@ -31,6 +30,7 @@ const Content = () => {
         ></Route>
         <Route path="/contact/jobs" component={Jobs}></Route>
         <Route path="/contact/team" component={Team}></Route>
+        <Route component={ErrorPage}></Route>
       </Switch>
     </>
   );

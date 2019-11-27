@@ -33,17 +33,7 @@ const Navigation = () => {
       </NavLink>
     </li>
   ));
-  // const socialMedia = socialMediaList.map(item => (
-  //   <li key={item.name}>
-  //     <Link to={item.path}>{item.name}</Link>
-  //   </li>
-  // ));
   return <ul>{navMenu}</ul>;
 };
 
 export default Navigation;
-
-// const socialMediaList = [
-//   { name: "Facebook", path: "hhtp://www.facebook.com" },
-//   { name: "LinkedIn", path: "hhtp://www.linkedin.com" }
-// ];

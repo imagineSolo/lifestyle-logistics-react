@@ -1,0 +1,17 @@
+.Social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 60px;
+}
+
+.SocialIcon {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.SocialLink a {
+  margin: 0;
+  padding: 0;
+}

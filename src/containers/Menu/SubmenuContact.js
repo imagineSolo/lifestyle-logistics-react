@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Auxiliary from "../../hoc/Auxiliary";
 
-import "./Menu.css";
+import "../../styles/components/Menu.css";
 
 class SubmenuActivity extends Component {
   render() {
