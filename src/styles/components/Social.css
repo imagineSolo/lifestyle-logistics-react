@@ -1,8 +1,7 @@
 .Social {
   position: absolute;
-  top: 0;
+  top: -30px;
   right: 0;
-  padding-right: 60px;
 }
 
 .SocialIcon {
@@ -14,4 +13,11 @@
 .SocialLink a {
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 550px) {
+  .Social {
+    top: 0;
+    padding-right: 60px;
+  }
 }

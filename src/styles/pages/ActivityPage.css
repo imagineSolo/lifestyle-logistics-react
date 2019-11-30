@@ -52,10 +52,11 @@
   background-repeat: no-repeat;
 }
 
-.activity span {
-  color: rgba(255, 255, 255, 0.842);
-  font-size: 30px;
-  text-shadow: 3px 3px 5px #000000;
+.activity a {
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  text-decoration: none;
+  text-shadow: 4px 4px 7px #000000;
 }
 
 @media (min-width: 550px) {
@@ -73,7 +74,21 @@
     height: 40vh;
   }
 
-  .activity span {
-    font-size: 40px;
+  .transport,
+  .spedition,
+  .logistics,
+  .warehousing:hover {
+    background-color: rgb(255, 153, 0);
+  }
+
+  .activity a {
+    padding: 2px;
+    font-size: 34px;
+    border: 1px solid #fff;
+    transition: .2s linear;
+  }
+
+  .activity a:hover {
+    font-size: 38px;
   }
 }

@@ -28,7 +28,7 @@
 .App section {
   grid-column: 2 / 20;
   grid-row: 3 / 20;
-  border: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .App footer {
