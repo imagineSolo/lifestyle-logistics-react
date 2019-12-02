@@ -1,20 +1,43 @@
-import React from "react";
+import React, { Component } from "react";
+import axios from "axios";
+import TeamMembers from "../../components/TeamMembers/TeamMembers";
 
-const team = () => {
-  return (
-    <div>
-      <h3>Our team</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta beatae
-        iste vitae, tempore harum tempora laborum enim ipsa, ea ducimus, aliquam
-        ratione labore dignissimos quae. Fugiat earum eius optio
-        mollitia.Voluptas, dolore quo! Non natus, perspiciatis, laborum ipsum
-        perferendis illo, tempora eum possimus doloremque minus architecto
-        deleniti similique at excepturi est nobis qui ipsam numquam officiis
-        aperiam atque voluptatem! Non?
-      </p>
-    </div>
-  );
-};
+class Team extends Component {
+  state = {
+    members: []
+  };
 
-export default team;
+  componentDidMount() {
+    axios
+      .get(
+        "https://randomuser.me/api/?inc=id,%20picture,%20name,%20phone,%20email"
+      )
+      .then(response => {
+        this.setState({ members: response.data });
+        console.log(response);
+      });
+  }
+
+  render() {
+    const teamMembers = this.state.members.map(member => {
+      return (
+        <TeamMembers
+          key={member.results.id.value}
+          image={member.results.picture.thumbnail}
+          name={member.results.name.first}
+          phone={member.results.phone}
+          email={member.results.email}
+        />
+      );
+    });
+
+    return (
+      <div>
+        <h3>Our team</h3>
+        {teamMembers}
+      </div>
+    );
+  }
+}
+
+export default Team;
