@@ -1,44 +1,18 @@
 import React from "react";
+import "../../styles/components/TeamMembers.css";
 
 const teamMembers = props => {
+  const link = `mailto: ${props.email}`;
   return (
-    <div>
-      <div>
-        <img src={props.image} alt="Portrait" />
-        <h5>{props.name}</h5>
-        <p>
-          <span>CEO</span>
-          <span>{props.phone}</span>
-          <span>{props.email}</span>
-        </p>
-      </div>
-      {/* <div>
-        <img src={props.image} alt="Portrait" />
-        <h5>{props.name}</h5>
-        <p>
-          <span>Manager</span>
-          <span>{props.phone}</span>
-          <span>{props.email}</span>
-        </p>
-      </div>
-      <div>
-        <img src={props.image} alt="Portrait" />
-        <h5>{props.name}</h5>
-        <p>
-          <span>Sales Director</span>
-          <span>{props.phone}</span>
-          <span>{props.email}</span>
-        </p>
-      </div>
-      <div>
-        <img src={props.image} alt="Portrait" />
-        <h5>{props.name}</h5>
-        <p>
-          <span>Forwarder</span>
-          <span>{props.phone}</span>
-          <span>{props.email}</span>
-        </p>
-      </div> */}
+    <div className="Member">
+      <img src={props.image} alt="Portrait" />
+      <h5>{props.name}</h5>
+      <p className="MemberInfo">
+        <p>Tel: {props.phone}</p>
+        <a href={link} className="Email">
+          <strong>{props.email}</strong>
+        </a>
+      </p>
     </div>
   );
 };

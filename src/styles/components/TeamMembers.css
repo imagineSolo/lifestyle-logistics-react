@@ -1,0 +1,16 @@
+.Member {
+  display: inline-block;
+  padding: 20px;
+  width: 230px;
+}
+
+.MemberInfo {
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Email {
+  text-decoration: none;
+  color: rgb(255, 153, 0);
+}

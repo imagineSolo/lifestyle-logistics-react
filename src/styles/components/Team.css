@@ -1,0 +1,17 @@
+.Header {
+  padding: 10px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 550px) {
+  .Container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+}
