@@ -1,0 +1,16 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.Jobs a,
+.Team a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+h2 {
+  padding: 10px;
+}

@@ -1,38 +1,21 @@
-* {
+html {
   margin: 0;
   padding: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 30px;
 }
 
 .App {
   text-align: center;
   max-width: 100%;
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(20, 5%);
-  grid-template-rows: repeat(20, 5%);
+  margin-bottom: -50px;
   font-size: calc(10px + 2vmin);
   background: url('../images/bg-marmor2.jpg');
   color: rgb(0, 0, 0);
-}
-
-.App header {
-  grid-column: 1 / -1;
-  grid-row: 1 / 1;
-}
-
-.App nav {
-  grid-column: 1 / -1;
-  grid-row: 2 / 3;
-}
-
-.App section {
-  grid-column: 2 / 20;
-  grid-row: 3 / 20;
-  border-top: 1px solid black;
-}
-
-.App footer {
-  grid-column: 1 / -1;
-  grid-row: 20 / -1;
-  border: 1px solid black;
 }

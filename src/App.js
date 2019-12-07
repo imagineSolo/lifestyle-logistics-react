@@ -8,7 +8,6 @@ import Menu from "./containers/Menu/Menu";
 import Footer from "./containers/Footer";
 
 import "./styles/App.css";
-import "./styles/Header.css";
 import "./styles/Content.css";
 
 function App() {
@@ -16,10 +15,10 @@ function App() {
     <Router>
       <Layout>
         <div className="App">
-          <header className="header">{<Header />}</header>
-          <nav>{<Menu />}</nav>
+          {<Header />}
+          {<Menu />}
           <section className="section">{<Content />}</section>
-          <footer>{<Footer />}</footer>
+          {<Footer />}
         </div>
       </Layout>
     </Router>

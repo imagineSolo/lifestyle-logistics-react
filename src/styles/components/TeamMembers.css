@@ -8,9 +8,22 @@
   display: inline-block;
   font-size: 14px;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .Email {
   text-decoration: none;
   color: rgb(255, 153, 0);
+}
+
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.Picture {
+  border-radius: 3px;
+  border-bottom: 4px solid rgb(255, 153, 0);
 }

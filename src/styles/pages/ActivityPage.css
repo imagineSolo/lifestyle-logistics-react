@@ -8,7 +8,10 @@
   align-items: center;
 }
 
-.transport {
+.transport,
+.spedition,
+.logistics,
+.warehousing {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,36 +23,15 @@
 }
 
 .spedition {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70vw;
-  height: 15vh;
   background-image: url('../../images/man-in-white-dress-shirt-sitting-on-black-rolling-chair-840996.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .logistics {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70vw;
-  height: 15vh;
   background-image: url('../../images/assorted-color-intermodal-containers-2547972.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .warehousing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70vw;
-  height: 15vh;
   background-image: url('../../images/person-driving-yellow-forklift-1267337.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .activity a {
@@ -74,11 +56,12 @@
     height: 40vh;
   }
 
-  .transport,
-  .spedition,
-  .logistics,
+  .transport:hover,
+  .spedition:hover,
+  .logistics:hover,
   .warehousing:hover {
     background-color: rgb(255, 153, 0);
+    filter: brightness(112%);
   }
 
   .activity a {

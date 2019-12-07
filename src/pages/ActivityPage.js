@@ -8,18 +8,21 @@ const ActivityPage = props => {
     <div>
       <h2>Usługi</h2>
       <div className="activity">
-        <div className="transport">
-          <Link to={props.match.url + "transport"}>Transport</Link>
-        </div>
-        <div className="spedition">
-          <Link to={props.match.url + "spedition"}>Spedycja</Link>
-        </div>
-        <div className="logistics">
-          <Link to={props.match.url + "logistics"}>Logistyka</Link>
-        </div>
-        <div className="warehousing">
-          <Link to={props.match.url + "warehousing"}>Magazynowanie</Link>
-        </div>
+        <Link to={props.match.url + "transport"} className="transport">
+          Transport
+        </Link>
+
+        <Link to={props.match.url + "spedition"} className="spedition">
+          Spedycja
+        </Link>
+
+        <Link to={props.match.url + "logistics"} className="logistics">
+          Logistyka
+        </Link>
+
+        <Link to={props.match.url + "warehousing"} className="warehousing">
+          Magazynowanie
+        </Link>
       </div>
     </div>
   );
