@@ -10,9 +10,17 @@
   padding: 0;
 }
 
-.SocialLink a {
-  margin: 0;
+a.SocialLink {
+  margin: 8px;
   padding: 0;
+}
+
+.SocialLink img {
+  border-radius: 4px;
+}
+
+.SocialLink img:hover {
+  background-color: rgb(255, 153, 0);
 }
 
 @media (min-width: 550px) {

@@ -59,6 +59,7 @@ nav ul {
   cursor: pointer;
   color: #000;
   text-decoration: none;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .nav__menu {
@@ -72,6 +73,11 @@ nav ul {
   display: inline-block;
   position: relative;
   border-radius: 3px;
+}
+
+li.nav__menu-item {
+  padding: 0 15px;
+  margin: 5px;
 }
 
 .nav__menu-item:hover {

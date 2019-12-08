@@ -1,6 +1,6 @@
 .activity {
   display: grid;
-  padding-top: 25px;
+  padding-top: 20px;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -74,4 +74,16 @@
   .activity a:hover {
     font-size: 38px;
   }
+}
+
+.ActivityContainer p {
+  text-align: left;
+}
+
+.Image {
+  float: left;
+  padding: 0 12px;
+  border-radius: 20%;
+  width: 20%;
+  height: 20%;
 }

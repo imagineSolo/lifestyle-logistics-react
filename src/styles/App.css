@@ -8,6 +8,7 @@ body {
   min-height: 100%;
   position: relative;
   padding-bottom: 30px;
+  background: url('../images/bg-marmor2.jpg');
 }
 
 .App {
@@ -16,6 +17,15 @@ body {
   min-height: 100vh;
   margin-bottom: -50px;
   font-size: calc(10px + 2vmin);
-  background: url('../images/bg-marmor2.jpg');
   color: rgb(0, 0, 0);
+}
+
+h1 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h2,
+h3 {
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }

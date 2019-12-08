@@ -1,9 +1,10 @@
 import React from "react";
+import Carousel from "../components/Carousel/Carousel";
 
 const HomePage = () => {
   return (
     <>
-      <h1>Witaj na stronie!</h1>
+      <h2>Całoroczna moda na transport</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nam
         consequatur inventore earum repudiandae tempore et illo aliquam, minus
@@ -16,6 +17,7 @@ const HomePage = () => {
         molestias iste similique nemo? Ut est labore ex ab dolore sunt
         temporibus, explicabo quasi veritatis!
       </p>
+      <Carousel />
     </>
   );
 };

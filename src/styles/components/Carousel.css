@@ -1,0 +1,11 @@
+.SliderWrapper {
+  margin: 25px;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid black;
+}
+
+.ClientLogo {
+  width: 150px;
+  height: 70px;
+}
