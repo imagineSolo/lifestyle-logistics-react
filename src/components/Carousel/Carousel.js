@@ -1,5 +1,4 @@
 import React from "react";
-import Aux from "../../hoc/Auxiliary";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,7 +16,8 @@ import "../../styles/components/Carousel.css";
 class Carousel extends React.Component {
   render() {
     var settings = {
-      dots: true,
+      dots: false,
+      arrows: false,
       infinite: true,
       autoplay: true,
       speed: 500,
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
       adaptiveHeight: true
     };
     return (
-      <Aux>
+      <div className="CarouselContainer">
         <h3>Zaufali nam:</h3>
         <div className="SliderWrapper">
           <Slider {...settings}>
@@ -59,7 +59,7 @@ class Carousel extends React.Component {
             </div>
           </Slider>
         </div>
-      </Aux>
+      </div>
     );
   }
 }

@@ -50,6 +50,7 @@ nav ul {
   color: #fff;
   text-align: left;
   width: 99.9%;
+  border-bottom: 1px solid black;
 }
 
 .nav a {
