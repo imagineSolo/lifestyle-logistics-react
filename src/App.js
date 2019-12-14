@@ -8,7 +8,6 @@ import Menu from "./containers/Menu/Menu";
 import Footer from "./containers/Footer";
 
 import "./styles/App.css";
-import "./styles/Content.css";
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
         <div className="App">
           {<Header />}
           {<Menu />}
-          <section className="section">{<Content />}</section>
+          <section className="Section">{<Content />}</section>
           {<Footer />}
         </div>
       </Layout>

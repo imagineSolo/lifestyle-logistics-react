@@ -5,18 +5,18 @@ import SubmenuActivity from "./SubmenuActivity";
 import SubmenuContact from "./SubmenuContact";
 import SocialMedia from "./SocialMedia";
 
-import "../../styles/components/Menu.css";
+import "../../styles/containers/Menu.css";
 
 class Menu extends Component {
   state = {
     showAboutMenu: false
   };
 
-  handleHover = event => {
+  handleHover = () => {
     this.setState({ showAboutMenu: true });
   };
 
-  handleLeave = event => {
+  handleLeave = () => {
     this.setState({ showAboutMenu: false });
   };
 

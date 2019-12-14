@@ -21,6 +21,11 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.Section {
+  height: 90%;
+  padding: 10px 50px;
+}
+
 h1 {
   padding-top: 0;
   margin-top: 0;

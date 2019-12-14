@@ -20,7 +20,7 @@ class SocialMedia extends Component {
     const socialMedia = this.state.social.map(item => (
       <span key={item.name} className="SocialIcon">
         <a href={item.path} to={item.path} className={"SocialLink"}>
-          <img src={item.image} alt="" />
+          <img src={item.image} alt="SocialIcon" />
         </a>
       </span>
     ));

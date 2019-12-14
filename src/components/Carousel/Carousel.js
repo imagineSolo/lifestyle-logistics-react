@@ -13,9 +13,21 @@ import client08 from "../../images/Clients/client08.png";
 import client09 from "../../images/Clients/client09.png";
 import "../../styles/components/Carousel.css";
 
+const images = [
+  client01,
+  client02,
+  client03,
+  client04,
+  client05,
+  client06,
+  client07,
+  client08,
+  client09
+];
+
 class Carousel extends React.Component {
   render() {
-    var settings = {
+    const settings = {
       dots: false,
       arrows: false,
       infinite: true,
@@ -25,39 +37,18 @@ class Carousel extends React.Component {
       slidesToScroll: 1,
       adaptiveHeight: true
     };
+
+    const clients = images.map((img, index) => (
+      <div className="ClientLogo">
+        <img src={img} alt={`Client${index + 1}`} />
+      </div>
+    ));
+
     return (
       <div className="CarouselContainer">
         <h3>Zaufali nam:</h3>
         <div className="SliderWrapper">
-          <Slider {...settings}>
-            <div className="ClientLogo">
-              <img src={client01} alt="Client1" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client02} alt="Client2" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client03} alt="Client3" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client04} alt="Client4" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client05} alt="Client5" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client06} alt="Client6" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client07} alt="Client7" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client08} alt="Client8" />
-            </div>
-            <div className="ClientLogo">
-              <img src={client09} alt="Client9" />
-            </div>
-          </Slider>
+          <Slider {...settings}>{clients}</Slider>
         </div>
       </div>
     );
