@@ -1,4 +1,4 @@
-.activity {
+.Activity {
   display: grid;
   padding-top: 20px;
   grid-template-columns: 1fr;
@@ -8,82 +8,90 @@
   align-items: center;
 }
 
-.transport,
-.spedition,
-.logistics,
-.warehousing {
+.Transport,
+.Spedition,
+.Logistics,
+.Warehousing {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 70vw;
   height: 15vh;
-  background-image: url('../../images/adult-automotive-blur-car-13861.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.spedition {
+.Transport {
+  background-image: url('../../images/adult-automotive-blur-car-13861.jpg');
+}
+
+.Spedition {
   background-image: url('../../images/man-in-white-dress-shirt-sitting-on-black-rolling-chair-840996.jpg');
 }
 
-.logistics {
+.Logistics {
   background-image: url('../../images/assorted-color-intermodal-containers-2547972.jpg');
 }
 
-.warehousing {
+.Warehousing {
   background-image: url('../../images/person-driving-yellow-forklift-1267337.jpg');
 }
 
-.activity a {
+.Activity a {
   color: rgb(255, 255, 255);
   font-size: 34px;
   text-decoration: none;
   text-shadow: 4px 4px 7px #000000;
 }
 
+.ActivityContainer .Image {
+  float: left;
+  padding: 0 12px;
+  border-radius: 20%;
+  width: 28vw;
+  height: 28vw;
+}
+
 @media (min-width: 550px) {
-  .activity {
+  .Activity {
     padding-top: 40px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
-  .transport,
-  .spedition,
-  .logistics,
-  .warehousing {
+  .Transport,
+  .Spedition,
+  .Logistics,
+  .Warehousing {
     width: 20vw;
     height: 40vh;
   }
 
-  .transport:hover,
-  .spedition:hover,
-  .logistics:hover,
-  .warehousing:hover {
-    background-color: rgb(255, 153, 0);
+  .Transport:hover,
+  .Spedition:hover,
+  .Logistics:hover,
+  .Warehousing:hover {
     filter: brightness(112%);
   }
 
-  .activity a {
+  .Activity a {
     padding: 2px;
     font-size: 34px;
     border: 1px solid #fff;
     transition: .2s linear;
   }
 
-  .activity a:hover {
+  .Activity a:hover {
     font-size: 38px;
   }
-}
 
-.ActivityContainer p {
-  text-align: left;
-}
+  .ActivityContainer p {
+    text-align: left;
+  }
 
-.Image {
-  float: left;
-  padding: 0 12px;
-  border-radius: 20%;
-  width: 20%;
-  height: 20%;
+  .ActivityContainer .Image {
+    width: 13vw;
+    height: 13vw;
+    margin: 1vw;
+  }
 }

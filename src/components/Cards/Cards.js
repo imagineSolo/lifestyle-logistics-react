@@ -10,33 +10,39 @@ const cards = () => (
       <div className="Face Face1">
         <div className="Content">
           <img src={img1} alt="Information" />
-          <h4>Moda...</h4>
+          <h4 className="CardHeader">Moda...</h4>
         </div>
       </div>
       <div className="Face Face2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="CardText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
       </div>
     </div>
     <div className="Card">
       <div className="Face Face1">
         <div className="Content">
           <img src={img2} alt="Information" />
-          <h4>...Dostarczana...</h4>
+          <h4 className="CardHeader">...Dostarczana...</h4>
         </div>
       </div>
       <div className="Face Face2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="CardText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
       </div>
     </div>
     <div className="Card">
       <div className="Face Face1">
         <div className="Content">
           <img src={img3} alt="Information" />
-          <h4>...Na Czas</h4>
+          <h4 className="CardHeader">...Na Czas</h4>
         </div>
       </div>
       <div className="Face Face2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="CardText">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
       </div>
     </div>
   </div>

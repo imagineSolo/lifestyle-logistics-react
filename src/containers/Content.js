@@ -23,11 +23,7 @@ const Content = () => {
         <Route path="/activity/transport" component={Transport}></Route>
         <Route path="/activity/spedition" component={Spedition}></Route>
         <Route path="/activity/logistics" component={Logistics}></Route>
-        <Route
-          path="/activity/warehousing"
-          exact
-          component={Warehousing}
-        ></Route>
+        <Route path="/activity/warehousing" component={Warehousing}></Route>
         <Route path="/contact/jobs" component={Jobs}></Route>
         <Route path="/contact/team" component={Team}></Route>
         <Route component={ErrorPage}></Route>

@@ -22,8 +22,8 @@ body {
 }
 
 .Section {
-  height: 90%;
-  padding: 10px 50px;
+  padding: 2vw 3vw;
+  margin-bottom: 1vw;
 }
 
 h1 {
@@ -34,4 +34,10 @@ h1 {
 h2,
 h3 {
   text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 550px) {
+  /* .Section {
+    padding: 10px 50px;
+  } */
 }

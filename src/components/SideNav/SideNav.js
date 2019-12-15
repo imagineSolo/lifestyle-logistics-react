@@ -11,8 +11,8 @@ const sideNav = props => {
   const navList = [
     { name: "Strona główna", path: "/", exact: true },
     { name: "O firmie", path: "/about" },
-    { name: "Usługi", path: "/activity" },
-    { name: "Kontakt", path: "/contact" }
+    { name: "Usługi", path: "/activity/" },
+    { name: "Kontakt", path: "/contact/" }
   ];
 
   const navMenu = navList.map(item => (

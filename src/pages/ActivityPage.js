@@ -7,20 +7,20 @@ const ActivityPage = props => {
   return (
     <div>
       <h2>Usługi</h2>
-      <div className="activity">
-        <Link to={props.match.url + "transport"} className="transport">
+      <div className="Activity">
+        <Link to={props.match.url + "transport"} className="Transport">
           Transport
         </Link>
 
-        <Link to={props.match.url + "spedition"} className="spedition">
+        <Link to={props.match.url + "spedition"} className="Spedition">
           Spedycja
         </Link>
 
-        <Link to={props.match.url + "logistics"} className="logistics">
+        <Link to={props.match.url + "logistics"} className="Logistics">
           Logistyka
         </Link>
 
-        <Link to={props.match.url + "warehousing"} className="warehousing">
+        <Link to={props.match.url + "warehousing"} className="Warehousing">
           Magazynowanie
         </Link>
       </div>

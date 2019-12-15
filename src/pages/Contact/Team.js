@@ -9,17 +9,31 @@ class Team extends Component {
   };
 
   componentDidMount() {
-    axios.get("https://randomuser.me/api/?nat=dk&results=10").then(response => {
+    axios.get("https://randomuser.me/api/?nat=dk&results=12").then(response => {
       this.setState({ members: response.data.results });
-      console.log(response.data.results);
     });
   }
 
   render() {
-    const teamMembers = this.state.members.map(member => {
+    const teamMembers = this.state.members.map((member, index) => {
+      let role = "";
+      if (index === 0) {
+        role = "CEO";
+      } else if (index === 1) {
+        role = "Administration";
+      } else if (index === 2) {
+        role = "Accountance";
+      } else if (index === 3) {
+        role = "Transport Manager";
+      } else if (index === 4) {
+        role = "Logistics Manager";
+      } else {
+        role = "Disponent";
+      }
       return (
         <TeamMembers
           key={member.cell}
+          role={role}
           image={member.picture.large}
           name={`${member.name.first} ${member.name.last}`}
           phone={member.phone}

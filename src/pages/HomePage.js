@@ -6,8 +6,8 @@ import "../styles/pages/HomePage.css";
 const HomePage = () => {
   return (
     <div className="Home">
-      <h2>Transport to styl życia</h2>
-      <p>
+      <h2 className="HomeHeader">Transport to styl życia</h2>
+      <p className="HomeInfo">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nam
         consequatur inventore earum repudiandae tempore et illo aliquam, minus
         saepe? Eveniet, soluta! Quos dolore eos eius fuga ab omnis vero. Dolore

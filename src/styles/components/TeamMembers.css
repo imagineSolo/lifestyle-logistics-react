@@ -27,3 +27,7 @@ p {
   border-radius: 3px;
   border-bottom: 4px solid rgb(255, 153, 0);
 }
+
+.Role {
+  font-weight: 900;
+}
