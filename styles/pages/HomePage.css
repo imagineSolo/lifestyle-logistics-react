@@ -1,0 +1,27 @@
+.Home {
+  display: block;
+}
+
+.HomeHeader {
+  margin: 5px 0 5px 0;
+}
+
+.HomeInfo {
+  text-align: justify;
+}
+
+@media(min-width: 550px) {
+  .Home {
+    display: block;
+  }
+
+  .HomeHeader {
+    margin: 10px 0 15px 0;
+  }
+
+  .HomeInfo {
+    margin: 5px 45px;
+    text-align: justify;
+  }
+
+}

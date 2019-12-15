@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: block;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 30px;
+  background: url('../images/bg-marmor2.jpg');
+}
+
+.App {
+  text-align: center;
+  max-width: 100%;
+  min-height: 100vh;
+  margin-bottom: -50px;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Section {
+  padding: 2vw 3vw;
+  margin-bottom: 1vw;
+}
+
+h1 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h2,
+h3 {
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 550px) {
+  /* .Section {
+    padding: 10px 50px;
+  } */
+}
