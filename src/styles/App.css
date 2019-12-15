@@ -35,9 +35,3 @@ h2,
 h3 {
   text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
-@media (min-width: 550px) {
-  /* .Section {
-    padding: 10px 50px;
-  } */
-}
