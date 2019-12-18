@@ -19,11 +19,11 @@ const Content = () => {
         <Route path="/lifestyle-logistics-react/" component={HomePage}></Route>
         <Route path="/about" component={AboutPage}></Route>
         <Route path="/activity" exact component={ActivityPage}></Route>
-        <Route path="/contact" exact component={ContactPage}></Route>
         <Route path="/activity/transport" component={Transport}></Route>
         <Route path="/activity/spedition" component={Spedition}></Route>
         <Route path="/activity/logistics" component={Logistics}></Route>
         <Route path="/activity/warehousing" component={Warehousing}></Route>
+        <Route path="/contact" exact component={ContactPage}></Route>
         <Route path="/contact/jobs" component={Jobs}></Route>
         <Route path="/contact/team" component={Team}></Route>
       </Switch>
