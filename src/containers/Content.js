@@ -4,7 +4,6 @@ import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import ActivityPage from "../pages/ActivityPage";
 import ContactPage from "../pages/ContactPage";
-import ErrorPage from "../pages/ErrorPage";
 import Transport from "../pages/Activity/Transport";
 import Spedition from "../pages/Activity/Spedition";
 import Logistics from "../pages/Activity/Logistics";
@@ -16,8 +15,8 @@ const Content = () => {
   return (
     <>
       <Switch>
-        <Route path="/" component={HomePage}></Route>
-        {/* <Route path="/lifestyle-logistics-react/" component={HomePage}></Route> */}
+        <Route component={HomePage}></Route>
+        <Route path="/lifestyle-logistics-react/" component={HomePage}></Route>
         <Route path="/about" component={AboutPage}></Route>
         <Route path="/activity" exact component={ActivityPage}></Route>
         <Route path="/contact" exact component={ContactPage}></Route>
@@ -27,7 +26,6 @@ const Content = () => {
         <Route path="/activity/warehousing" component={Warehousing}></Route>
         <Route path="/contact/jobs" component={Jobs}></Route>
         <Route path="/contact/team" component={Team}></Route>
-        {/* <Route component={ErrorPage}></Route> */}
       </Switch>
     </>
   );
