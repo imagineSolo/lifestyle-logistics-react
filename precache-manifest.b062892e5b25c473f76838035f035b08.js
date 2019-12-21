@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42b034617000d6be3d94ae71a4488058",
+    "revision": "48a8bf8692606268464cf465ee498a9f",
     "url": "/lifestyle-logistics-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lifestyle-logistics-react/static/css/2.8c7d2076.chunk.css"
   },
   {
-    "revision": "a5b1e6917aef9ab35abb",
+    "revision": "0db54e0bb5aa4aaaa9fa",
     "url": "/lifestyle-logistics-react/static/css/main.9d01f852.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lifestyle-logistics-react/static/js/2.7550bee1.chunk.js"
   },
   {
-    "revision": "a5b1e6917aef9ab35abb",
-    "url": "/lifestyle-logistics-react/static/js/main.0948e94b.chunk.js"
+    "revision": "0db54e0bb5aa4aaaa9fa",
+    "url": "/lifestyle-logistics-react/static/js/main.81209452.chunk.js"
   },
   {
     "revision": "4234a63018feb28b535b",

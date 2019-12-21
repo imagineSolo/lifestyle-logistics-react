@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lifestyle-logistics-react/precache-manifest.769fc6391fde8a6b5010b68c2a0f38f3.js"
+  "/lifestyle-logistics-react/precache-manifest.b062892e5b25c473f76838035f035b08.js"
 );
 
 self.addEventListener('message', (event) => {
