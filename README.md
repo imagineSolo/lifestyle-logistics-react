@@ -4,27 +4,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 It's a fake transport company (based on the one I work in) using the React.js library. 
 
 Packages used:
-    *"axios", 
+
+    - axios 
     
-    *"react", 
+    - react 
     
-    *"react-addons-css-transition-group", 
+    - react-addons-css-transition-group
     
-    *"react-css-modules", 
+    - react-css-modules
     
-    *"react-dom", 
+    - react-dom
     
-    *"react-router-dom", 
+    - react-router-dom
     
-    *"react-scripts", 
+    - react-scripts
     
-    *"react-slick", 
+    - react-slick
     
-    *"react-transition-group", 
+    - react-transition-group
     
-    *"slick", 
+    - slick
     
-    *"slick-carousel",
+    - slick-carousel
 
 ## Live version
 [Live version](https://imaginesolo.github.io/lifestyle-logistics-react/)
