@@ -7,25 +7,16 @@ Packages used:
 
     - axios 
     
-    - react 
-    
     - react-addons-css-transition-group
     
     - react-css-modules
     
-    - react-dom
-    
     - react-router-dom
-    
-    - react-scripts
-    
-    - react-slick
     
     - react-transition-group
     
-    - slick
-    
     - slick-carousel
+    
 
 ## Live version
 [Live version](https://imaginesolo.github.io/lifestyle-logistics-react/)
