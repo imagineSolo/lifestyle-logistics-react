@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://imaginesolo.github.io/lifestyle-logistics-react/",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "react": "^16.10.1",
     "react-addons-css-transition-group": "^15.6.2",
     "react-css-modules": "^4.7.11",
